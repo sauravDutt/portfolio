@@ -69,7 +69,7 @@ scene.background = spaceTexture;
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(6, 32, 30),
   new THREE.MeshStandardMaterial({
-    color: 0x8400ff,
+    color: 0xaee234,
     wireframe: true,
   })
 );
@@ -87,6 +87,8 @@ const shapeone = new THREE.Mesh(
     wireframe: true,
   })
 );
+
+
 
 scene.add(shapeone);
 shapeone.position.z = 30;
