@@ -34,7 +34,7 @@ canvas {
 
 main {
   width: 100vw;
-  color: white;
+  color: #fff;
   z-index: 99;
   position: absolute;
   width: 100%;
